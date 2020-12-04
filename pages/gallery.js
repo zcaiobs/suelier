@@ -2,13 +2,13 @@ import Head from './head'
 import Navbar from './navbar'
 import Footer from './footer'
 
-export default function App() {
+export default function Gallery() {
   return (
-    <div className='app'>
+    <div className="gallery">
       <Head />
       <Navbar />
-      <main className='content blue-color'>
-        <h1>Hello World from Index</h1>
+      <main className='content coral-color'>
+        <h1>Hello World from Gallery</h1>
       </main>
       <Footer />
     </div>
