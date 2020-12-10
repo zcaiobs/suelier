@@ -1,6 +1,6 @@
-import Head from './head'
-import Navbar from './navbar'
-import Footer from './footer'
+import Head from '../components/head'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 
 export default function Gallery() {
   return (

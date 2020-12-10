@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Comic Neue', cursive;
 }
 
 a {
@@ -13,6 +12,11 @@ a {
 
 .nav-item .navLink {
   text-decoration: none;
+  color: #263238; 
+  margin-left: 20px;
+}
+
+.nav-item .navLink:hover {
   color: coral;
 }
 
@@ -31,4 +35,72 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.hero {
+  height: 550px;
+}
+
+.hero span {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero h2 {
+  font-size: 30px;
+}
+
+.hero .img-1 {
+  margin-top: 20px;
+  width: 100%;
+  min-width: 280px;
+}
+
+.hero .content-1 {
+  margin-top: 30px;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  color: #263238;  
+}
+
+.hero .content-2 p {
+  font-size: 22px;
+}
+
+.hero .content-2 button {
+  background: #FF7324;
+  border: 1px solid #445963;
+  color: white;
+}
+
+.hero .content-2 button:active {
+  background: white;
+  color:#263238;
+}
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.service .card {
+  width: 18rem;
+  margin: 10px;
+}
+
+.service .card-c {
+  overflow: hidden;
+}
+
+.service .card img {
+  transition: all 0.3s;
+  opacity: 0.9;
+}
+
+.service .card:hover > .card-c img {
+  transform: scale(1.1);
+  opacity: 1;
 }

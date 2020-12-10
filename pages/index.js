@@ -1,16 +1,57 @@
-import Head from './head'
-import Navbar from './navbar'
-import Footer from './footer'
+import Head from "../components/head";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+import Hero from "./contents/hero";
+import Service from "./contents/service";
+import Barra from "./contents/barra";
+import Carousel from "./contents/carousel";
+import Location from "./contents/location";
+import Whatsapp from "./contents/btn-whatsapp";
 
 export default function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <Head />
+      <Whatsapp />  
       <Navbar />
-      <main className='content blue-color'>
-        <h1>Hello World from Index</h1>
-      </main>
+      <Hero />
+      <hr />
+      <div className="service">
+        <Service
+          title={"Ajuste"}
+          img={"/ajuste.jpg"}
+          text={
+            "O Ajuste de roupa contribui com o caimento da peça e proporciona mais conforto."
+          }
+        />
+        <Service
+          title={"Conserto"}
+          img={"/conserto.jpg"}
+          text={
+            "O conserto é uma forma rápida para recuperar pequenas avarias na peça."
+          }
+        />
+        <Service
+          title={"Customização"}
+          img={"/customizacao.jpg"}
+          text={
+            "O processo de customização pode ser feito com apliques, patches, rendados entre outros."
+          }
+        />
+        <Service
+          title={"Confecção"}
+          img={"/confeccao.jpg"}
+          text={
+            "Crie uma peça exclusiva, (há limite de quantidade, entre em contato para mais informações)."
+          }
+        />
+      </div>
+      <Barra />
+      <Carousel />
+      <hr />
+      <Location />
+      <hr />
       <Footer />
     </div>
-  )
+  );
 }
