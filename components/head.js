@@ -12,7 +12,7 @@ export default function HeadImport() {
       />
       <meta
         name="description"
-        content="Atelier de costura no centro de São Paulo"
+        content="♦ Atelier de costura no centro de São Paulo. ♦ Costureira ♦ Ajustes e Consertos de Roupas ♦"
       />
       <meta name="theme-color" content="#ff823a" />
       <link
