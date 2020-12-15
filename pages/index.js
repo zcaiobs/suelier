@@ -19,28 +19,28 @@ export default function App() {
       <div className="service">
         <Service
           title={"Ajuste"}
-          img={"/ajuste.jpg"}
+          img={"/ajuste-min.jpg"}
           text={
             "O Ajuste de roupa contribui com o caimento da peça e proporciona mais conforto."
           }
         />
         <Service
           title={"Conserto"}
-          img={"/conserto.jpg"}
+          img={"/conserto-min.jpg"}
           text={
             "O conserto é uma forma rápida para recuperar pequenas avarias na peça."
           }
         />
         <Service
           title={"Customização"}
-          img={"/customizacao.jpg"}
+          img={"/customizacao-min.jpg"}
           text={
             "O processo de customização pode ser feito com apliques, patches, rendados entre outros."
           }
         />
         <Service
           title={"Confecção"}
-          img={"/confeccao.jpg"}
+          img={"/confeccao-min.jpg"}
           text={
             "Crie uma peça exclusiva, (há limite de quantidade, entre em contato para mais informações)."
           }
