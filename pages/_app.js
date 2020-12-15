@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import "../styles/location.css";
 import "../styles/carousel.css";
 import "../styles/btn-whatsapp.css";
+import "../styles/btn-instagram.css";
 import "../styles/show-service.css";
 import "../styles/footer.css";
 import "../styles/header.css";

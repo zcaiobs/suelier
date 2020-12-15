@@ -7,12 +7,14 @@ import Barra from "./contents/barra";
 import Carousel from "./contents/carousel";
 import Location from "./contents/location";
 import Whatsapp from "./contents/btn-whatsapp";
+import Instagram from "./contents/btn-instagram";
 
 export default function App() {
   return (
     <div className="app">
       <Head />
-      <Whatsapp />  
+      <Instagram />
+      <Whatsapp />
       <Navbar />
       <Hero />
       <hr />
