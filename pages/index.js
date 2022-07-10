@@ -40,13 +40,13 @@ export default function App() {
             "O processo de customização pode ser feito com apliques, patches, rendados entre outros."
           }
         />
-        <Service
+        {/* <Service
           title={"Confecção"}
           img={"/confeccao-min.jpg"}
           text={
             "Crie uma peça exclusiva, (há limite de quantidade, entre em contato para mais informações)."
           }
-        />
+        /> */}
       </div>
       <Barra />
       <Carousel />
