@@ -35,13 +35,6 @@ export default function Carousel() {
               alt="Trabalhos realizados"
             />
           </div>
-          <div className="carousel-item">
-            <img
-              src="img5.jpg"
-              className="d-block "
-              alt="Trabalhos realizados"
-            />
-          </div>
         </div>
         <a
           className="carousel-control-prev"
